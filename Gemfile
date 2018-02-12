@@ -48,7 +48,7 @@ end
 
 group :production do
   #postgre SQL
-  gem 'pg'
+  gem 'pg', '~> 0.11'
   
   gem 'rails_12factor'
   
